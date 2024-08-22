@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel</title>
+    <link rel="stylesheet" href="tabel.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Keterangan</th>
+                <th>Bersedia Membayar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bersedia membayar Dana Sumbangan Pembangunan (DSP) Sebesar Rp 8.500.000 dengan mekanisme pembayaran Dana Sumbangan Pendidikan</td>
+                <td>
+                    <p><input type="radio" id="html" name="fav_language" value="HTML">Lunas saat Daftar Ulang</p>
+                    <p><input type="radio" id="html" name="fav_language" value="HTML">60% dibayarkan saat daftar ulang, dan sisanya dibayarkan paling lambat tanggal 19 agustus 2024</p>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bersedia membayar Sumbangan Penyelenggaraan Pendidikan (SPP) secara rutin setiap bulan sebesar Rp 550.000 yang dibayarkan sebelum tanggal 10 setiap bulannya kecuali bulan juli 2024</td>
+                <td>
+                    <label for="cbx" class="cbx">
+                        <div class="checkmark">
+                        <input checked="" type="checkbox" id="cbx">
+                        <div class="flip">
+                          <div class="front"></div>
+                            <div class="back">
+                              <svg viewBox="0 0 16 14" height="14" width="16">
+                                <path d="M2 8.5L6 12.5L14 1.5"></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td>
+                    <p>Pembayaran lainnya.</p>
+                    <p>Setelah Putra/Putri kami diterima di SMK Wikrama Bogor, kami juga bersedia memberikan : </p>
+                    <p>a. Wakaf pembangunan Masjid Al-Ikram</p>
+                </td>
+                <td>
+                    <p><input type="radio" id="html" name="fav_language" value="HTML">Rp. 300.000</p>
+                    <p><input type="radio" id="html" name="fav_language" value="HTML">Rp. 500.000</p>
+                    <p><input type="radio" id="html" name="fav_language" value="HTML">Rp. 1.000.000</p>
+                    <p><input type="radio" id="html" name="fav_language" value="HTML">Rp. 2.000.000</p>
+                    <p><input type="radio" id="html" name="fav_language" value="HTML">Rp. 5.000.000</p>
+                    <p><input type="radio" id="html" name="fav_language" value="HTML">> Rp. 5.000.000 atau Rp <input type="number"></p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>b. Zakat Infaq dan Sodaqoh secara rutin setiap bulan</td>
+                <td>Rp <input type="number"></td>
+            </tr>
+        </body>
+    </table>
+</body>
+</html>
